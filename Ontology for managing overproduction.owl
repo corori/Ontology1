@@ -1,0 +1,2248 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#"
+     xml:base="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#executes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#executes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Production_team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#hasNationality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#hasNationality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#hasProduct -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#hasProduct">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Production_order"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#impose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#impose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Late_Delivery_Penalty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#isIssuedby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#isIssuedby">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Production_order"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#isMadeby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#isMadeby">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#isMadein -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#isMadein">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#isMadeof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#isMadeof">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#transportProductby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#transportProductby">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#TransportationMode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#usesEquipment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#usesEquipment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#usesTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#usesTool">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Base -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Base">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Bottle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Bottle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Button -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Button">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Cap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Cap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Cylinder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Cylinder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Decoration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Decoration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Gasket -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Gasket">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Housing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Housing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion_machine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Late_Delivery_Penalty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Late_Delivery_Penalty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Mold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Mold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Printing_machine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion_machine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Packaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Packaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Packaging_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Packaging_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Piercing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Piercing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Piercing_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Piercing_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Piston -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Piston">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Polishing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Polishing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Polishing_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Polishing_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Printing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Printing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Printing_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Printing_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Production_order -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Production_order"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Production_team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Production_team"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Pump -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Pump">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SPE_Extrusion_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SPE_Extrusion_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion_machine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Ship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Ship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Printing_machine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Spring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Spring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Stem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Stem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Manufacturing_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Testing_machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Testing_machine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tip">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tool"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#TransportationMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#TransportationMode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tube -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tube">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Valve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Valve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#ABS-_Acrylonitrile_Butadiene_Styrene_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#ABS-_Acrylonitrile_Butadiene_Styrene_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#AMOREPACIFIC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#AMOREPACIFIC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#AROMATIC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#AROMATIC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#AS-_Acrylonitrile_Styrene_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#AS-_Acrylonitrile_Styrene_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Acrylic-_Acrylate_Polymers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Acrylic-_Acrylate_Polymers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Airplane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Airplane"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Aluminum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Aluminum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#American -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#American">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#April -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#April">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Asian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Asian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine_08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#August -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#August">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Chinese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Chinese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine_401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine_401">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine_402 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine_402">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine_403 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine_403">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#December -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#December">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Do_Day_Dream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Do_Day_Dream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#ELE_HAY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#ELE_HAY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#European -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#European">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#FANCL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#FANCL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#February -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#February">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#HDPE-_High-density_Polyethylene_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#HDPE-_High-density_Polyethylene_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping_machine_301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping_machine_301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_09">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_302 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_302">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_304 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_304">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_305 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_305">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_306 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_306">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_307 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_307">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_308 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_308">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_310 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_310">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_311 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_311">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_312 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_312">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_314 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_314">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_315 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_315">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_316 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_316">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_317 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_317">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_318 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_318">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_319 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_319">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_320 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_320">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_321 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_321">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_322 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_322">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_323 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_323">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_324 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_324">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_325 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_325">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_326 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_326">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_327 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_327">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_328 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_328">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_329 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_329">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_330 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_330">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_331 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_331">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_332 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_332">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_36 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_36">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_38 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_38">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_39 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_39">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Outside_machie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_401">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_402 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_402">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_403 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine_403">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#In-house_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#January -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#January">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Japanese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Japanese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#July -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#July">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#June -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#June">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#KEIZ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#KEIZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#KOLMAR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#KOLMAR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#KOSE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#KOSE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Kao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Kao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Korean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Korean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LDPE-_Low-density_Polyethylene_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LDPE-_Low-density_Polyethylene_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_303">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_304 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_304">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_305 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_305">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_401">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_402 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_402">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_403 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_403">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_501 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_501">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_502 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_502">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_503 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine_503">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LF_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine_301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine_301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine_501 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine_501">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_302 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_302">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_303">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_304 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_304">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_305 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_305">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_306 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_306">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_501 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_501">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_502 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_502">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_503 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_503">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_504 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_504">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_505 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_505">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_506 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_506">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_507 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_507">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_508 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Lid_capping_machine_508">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#MILOTT_LABORATORIES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#MILOTT_LABORATORIES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#March -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#March">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#May -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#May">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#November -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#November">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#October -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#October">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_302 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_302">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_303">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_401">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_403 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_403">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_404 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_404">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_405 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_405">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_501 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_501">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_502 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_502">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_503 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_503">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_504 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_504">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_505 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine_505">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Offset_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PACIFIA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PACIFIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE-_Polyethylene_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE-_Polyethylene_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PET-_Polyethylene_Terephthalate_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PET-_Polyethylene_Terephthalate_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PETE-_Polyethylene_Terephthalate_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PETE-_Polyethylene_Terephthalate_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PETG-_Polyethylene_Terephthalate_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PETG-_Polyethylene_Terephthalate_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_302 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_302">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_303">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_304 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_304">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_401">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_402 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_402">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_403 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_403">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_501 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_501">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_502 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_502">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_503 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine_503">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PKG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PKG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PMMA-_Polymethyl_Methacrylate_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PMMA-_Polymethyl_Methacrylate_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#POLA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#POLA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PP-_Polypropylene_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PP-_Polypropylene_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PS-_Polystyrene_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#PS-_Polystyrene_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Quadpack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Quadpack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SAN-_Styrene_Acrylonitrile_Plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SAN-_Styrene_Acrylonitrile_Plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SANSEI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SANSEI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SKOON_Skincare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SKOON_Skincare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SPE_Extrusion_machine_301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SPE_Extrusion_machine_301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SPE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SPE_Extrusion_machine_501 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SPE_Extrusion_machine_501">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#SPE_Extrusion_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#September -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#September">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Month"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Ship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Ship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Shiseido -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Shiseido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_301 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_301">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_302 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_302">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_303 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_303">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_304 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_304">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_401 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_401">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_402 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_402">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_403 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_403">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_404 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_404">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_405 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_405">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_501 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_501">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_502 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_502">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_503 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_503">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_504 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreening_printing_machine_504">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Silkscreen_printing_machine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Train -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Train"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Truck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Truck"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#WILLER -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#WILLER">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LG_Household_&amp;_Health_Care -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#LG_Household_&amp;_Health_Care">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Packaging"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Piercing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Polishing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Printing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Testing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Assembly_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Capping_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Coating_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Extrusion_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Hot_stamping_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Injection_molding_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Labeling_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Packaging_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Piercing_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Polishing_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Printing_machine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Testing_machine"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Bottle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Cap"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Pump"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/bongari82/ontologies/2019/4/untitled-ontology-18#Tube"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+
